@@ -1,0 +1,18 @@
+.nav1 {
+  width: 58px !important;
+  align-items: center;
+  overflow: hidden;
+  transition: 30ms;
+}
+
+.nav1 .bi-lightning-fill::before {
+  content: "\F46D";
+  transition: 2s;
+  transform: rotateX(180deg);
+}
+.nav1 .bi-x-circle::before {
+  content: "\F134";
+}
+.nav1 .close-text {
+  display: none;
+}
